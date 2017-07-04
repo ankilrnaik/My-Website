@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="myApp">
+    <head>
+        
+        <title>Ankil Naik - M.S. Computer Science</title>
+        <link rel="shortcut icon" type="image/x-icon" href="img/profile2.ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="todo.css"/>
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular-route.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+        <script src="js/classie.js"></script>
+        <script src="js/cbpAnimatedHeader.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+        <script src="js/skills.js"></script>
+        
+
+        <!-- Custom Theme JavaScript -->
+        <script src="js/freelancer.js"></script>
+        <script src="js/rotateText.js"></script>
+        <script src="js/app.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+
+        <!-- Custom CSS -->
+        <link href="css/freelancer.css" rel="stylesheet">
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#/">Home</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#/about-me">About Me</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#/my-education">Education</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#/my-workexperience">Work Experience</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#/my-projects">Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#/my-contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+        <div class="container" ng-view>
+
+        </div>
+            <footer class="footer">
+            <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="footer-align2">
+            <i class="fa fa-copyright"></i> 2016 All Rights Reserved | Developed by Ankil Naik 
+            </div>
+            </nav>
+            </footer>
+            <div class="modal fade" id="NJIT1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Forbes</h4>
+        <br>
+        <p class="caption3">Software Engineering Intern</p>
+        <p class="caption3">May 2016 - August 2016</p>
+      </div>
+      <div class="modal-body">
+        <ul>
+        <li><p>Implemented various types of tracking for monitoring users' activities on Forbes website using AngularJS, Google Tag Manager, and Google Analytics.</p></li>
+        <li><p>Created multiple components, directives, and services in an AngularJS application, with server-side rendering to improve page loading times and SEO.</p></li>
+        <li><p>Used JavaScript to integrate middleware and backend systems with Front-End web pages.</p></li>
+        <li><p>Overseeing and driving day-to-day Forbes website operations using tools like Git, Phabricator, JIRA and MantisBT.</p></li>
+        <li><p><b>Technologies:</b> AngularJS, Google Tag Manager, Google Analytics, Node.js, REST, Git, JIRA</p></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p align="center"><button type="button" class="btn btn-danger" data-dismiss="modal" onclick="return btntest_onclick()">Close</button></p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="NJIT2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">New Jersey Institute of Technology - Department of Computer Science</h4>
+        <br>
+        <p class="caption3">Research Team Member</p>
+        <p class="caption3">January 2016 - December 2016</p>
+      </div>
+      <div class="modal-body">
+        <ul>
+        <li><p>Responsible for the front-end maintenance of the web project.</p></li>
+        <li><p>Currently working on NLP (Natural Language Processing) to help make the project highly interactive.</p></li>
+        <p><b><u>Project:</u> SLOB - Security Learning by Ontology Browsing</b></p>                                                                                  
+        <li><p>Coordinated and created a web application using MVC architecture to facilitate learning of Cyber Security for college level students, teachers all at one location using data from various sources such as Google, YouTube, Twitter, SlideShare, etc.</p></li>
+        <li><p>Designed a code to display the contents of an OWL file on the web page using XML parsing.</p></li>
+        <li><p>Ensured that the project was complete within the given time frame.</p></li>
+        <li><p><b>Technologies:</b> J2EE, HTML, CSS, JavaScript, jQuery, Bootstrap, AJAX, AngularJS, XML, JSON, SQL Server</p></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p align="center"><button type="button" class="btn btn-danger" data-dismiss="modal" onclick="return btntest_onclick()">Close</button></p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="modal fade" id="NJIT3Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Gujarat Computer & Softwares Ltd.</h4>
+        <br>
+        <p class="caption3">Software Engineer</p>
+        <p class="caption3">January 2014 - November 2014</p>
+      </div>
+      <div class="modal-body">
+        <ul>
+        <li><p>Provided end to end solution for the new change requests for the softwares.</p></li>
+        <li><p>Involvement in Requirement Gathering and Impact Analysis phase for the new projects.</p></li>
+        <p><b><u>Project:</u> Iris Time and Attendance</b></p>
+        <li><p>Developed a Time and Attendance software in J2EE using Eclipse to facilitate efficiency thereby enhancing profitability by checking employee’s in & out time and verifying their details stored in a database with the help of MySQL Server.</p></li>
+        <li><p>Gathered requirements analysis, design and programming support for the enhancement of the software.</p></li>
+        <li><p>Assisted in designing the GUI using SWT 4.3.2.</p></li>
+        <li><p>Enhanced the software’s efficiency by delivering quality testing consistently.</p></li>
+        <li><p><b>Technologies:</b> J2EE, Eclipse EE, MySQL Server 5.6</p></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p align="center"><button type="button" class="btn btn-danger" data-dismiss="modal" onclick="return btntest_onclick()">Close</button></p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="modal fade" id="NJIT4Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header" align="center">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Perficient</h4>
+        <br>
+        <p class="caption3">Associate Technical Consultant</p>
+        <p class="caption3">March 2017 - Present
+      </div>
+      <div class="modal-body">
+        <ul>
+        <li><p>Working on Spring Boot, Microservices.</p></li>
+        <li><p>Developed unit test cases using JUnit and Mockito.</p></li>
+        <li><p><b>Technologies:</b> Java, Spring Boot, JUnit, Mockito, REST, RabbitMQ</p></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p align="center"><button type="button" class="btn btn-danger" data-dismiss="modal" onclick="return btntest_onclick()">Close</button></p>
+        
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onclick="return btntest2_onclick()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>SLOB - Security Learning by Ontology Browsing</h2>
+                            <hr class="star-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p></p>
+                </div>
+                <div class="col-lg-4">
+                   <img src="img/portfolio/slob.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <h3> <i class="glyphicon glyphicon-chevron-right" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal2"></i></h3>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                <ul>
+                <li align="justify">Coordinated and created a web application using MVC architecture to facilitate learning of Cyber Security for college level students, teachers all at one location using data from various sources such as Google, YouTube, Twitter, SlideShare, etc.</li>
+                <li align="justify">Designed a code to display the contents of an OWL file on the web page using XML parsing.</li>
+                <li align="justify">Ensured that the project was complete within the given time frame.</li>
+                <li align="justify"><b>Technologies:</b> J2EE, HTML, CSS, JavaScript, jQuery, Bootstrap, AJAX, AngularJS, XML, JSON, SQL Server</li>
+                </ul>
+                <ul class="list-inline item-details">
+                                <li><u>Professional Project:</u>
+                                    <strong>New Jersey Institute of Technology
+                                    </strong>
+                                </li>
+                                <li><u>Date:</u>
+                                    <strong>Jan 2016 - Present
+                                    </strong>
+                                </li>
+                                <li><u>Link:</u>
+                                    <strong><a class="my" href="http://isecurelab.info:8080/WASlob/" target="_blank">SLOB</a>
+                                    </strong>
+                                </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="return btntest2_onclick()"><i class="fa fa-times"></i> Close</button>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onclick="return btntest2_onclick()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Apriori Algorithm</h2>
+                            <hr class="star-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                     <h3> <i class="glyphicon glyphicon-chevron-left" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal1"></i></h3>
+                </div>
+                <div class="col-lg-4">
+                   <img src="img/portfolio/Apriori.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <h3> <i class="glyphicon glyphicon-chevron-right" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal3"></i></h3>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                <ul>
+                <li align="justify">Created a data mining algorithm in Java to generate and print all the association rules and the input transactions for each of the five text files that were made.</li>
+                <li align="justify">Created five texts files which were used as inputs to the above algorithm that comprised name of data items like diapers, clothes, food items, etc. from any supermarket such as K-mart, Walmart, Amazon, etc.</li>
+                <li align="justify">When the text files were fed to the algorithm, a separate output file was generated corresponding to each input text file.</li>
+                <li align="justify"><b>Technologies:</b> Java, Eclipse EE</li>
+                </ul>
+                <ul class="list-inline item-details">
+                                <li><u>Academic Project:</u>
+                                    <strong>New Jersey Institute of Technology
+                                    </strong>
+                                </li>
+                                <li><u>Date:</u>
+                                    <strong>Feb 2016 - March 2016
+                                    </strong>
+                                </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="return btntest2_onclick()"><i class="fa fa-times"></i> Close</button>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onclick="return btntest2_onclick()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Sorting Deck of Cards</h2>
+                            <hr class="star-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                     <h3> <i class="glyphicon glyphicon-chevron-left" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal2"></i></h3>
+                </div>
+                <div class="col-lg-4">
+                   <img src="img/portfolio/cards.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <h3> <i class="glyphicon glyphicon-chevron-right" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal4"></i></h3>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                <ul>
+                <li align="justify">Implemented a Map-Reduce based approach in Hadoop to find the missing cards from a deck of cards.</li>
+                <li align="justify">Designed an algorithm in Java that would take an input file and deliver the missing number of cards.</li>
+                
+                <li align="justify"><b>Technologies:</b> Java, Hadoop, Map-Reduce, AWS EC2 Instances</li>
+                </ul>
+                <ul class="list-inline item-details">
+                                <li><u>Academic Project:</u>
+                                    <strong>New Jersey Institute of Technology
+                                    </strong>
+                                </li>
+                                <li><u>Date:</u>
+                                    <strong>Nov 2015 - Dec 2015
+                                    </strong>
+                                </li>
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="return btntest2_onclick()"><i class="fa fa-times"></i> Close</button>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onclick="return btntest2_onclick()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Iris Time and Attendance</h2>
+                            <hr class="star-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                     <h3> <i class="glyphicon glyphicon-chevron-left" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal3"></i></h3>
+                </div>
+                <div class="col-lg-4">
+                   <img src="img/portfolio/iris.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <h3> <i class="glyphicon glyphicon-chevron-right" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal5"></i></h3>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                <ul>
+                <li align="justify">Developed a Time and Attendance software in J2EE using Eclipse to facilitate efficiency thereby enhancing profitability by checking employee’s in & out time and verifying their details stored in a database with the help of MySQL Server.</li>
+                <li align="justify">Gathered requirements analysis, design and programming support for the enhancement of the software.</li>
+                <li align="justify">Assisted in designing the GUI using SWT 4.3.2.</li>
+                <li align="justify">Enhanced the software’s efficiency by delivering quality testing consistently.</li>
+                <li align="justify"><b>Technologies:</b> J2EE, Eclipse EE, MySQL Server 5.6</li>
+                </ul>
+                <ul class="list-inline item-details">
+                                <li><u>Professional Project:</u>
+                                    <strong>Gujarat Computer & Softwares Ltd.
+                                    </strong>
+                                </li>
+                                <li><u>Date:</u>
+                                    <strong>Jan 2014 - Nov 2014
+                                    </strong>
+                                </li>
+                                
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="return btntest2_onclick()"><i class="fa fa-times"></i> Close</button>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onclick="return btntest2_onclick()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Web Meeting and Desktop Sharing</h2>
+                            <hr class="star-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                     <h3> <i class="glyphicon glyphicon-chevron-left" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal4"></i></h3>
+                </div>
+                <div class="col-lg-4">
+                   <img src="img/portfolio/web.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <h3> <i class="glyphicon glyphicon-chevron-right" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal6"></i></h3>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                <ul>
+                <li align="justify">Developed a windows application in Swing, Java for people wanting to have distant meetings with features like text chat, voice talk, file transfer, remote/host computer control using a GSM modem and an OTP.</li>
+                <li align="justify">Designed the GUI and prepared test cases needed to run the application.</li>
+                <li align="justify">Assisted in designing the RSA algorithm needed to encrypt and decrypt messages.</li>
+                <li align="justify">Implemented socket programming for client-server communication leveraging object serialization concepts.</li>
+                <li align="justify"><b>Technologies:</b> Java, Swing, C, Apache Tomcat, NetBeans, GSM Modem</li>
+                </ul>
+                <ul class="list-inline item-details">
+                                <li><u>Academic Project:</u>
+                                    <strong>D. Y. Patil College of Engineering, University of Pune
+                                    </strong>
+                                </li>
+                                <li><u>Date:</u>
+                                    <strong>Jan 2013 - April 2013
+                                    </strong>
+                                </li>
+                                
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="return btntest2_onclick()"><i class="fa fa-times"></i> Close</button>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal" onclick="return btntest2_onclick()">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Online Real Estate Management</h2>
+                            <hr class="star-primary">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                     <h3> <i class="glyphicon glyphicon-chevron-left" data-toggle="modal" data-dismiss="modal" data-target="#portfolioModal5"></i></h3>
+                </div>
+                <div class="col-lg-4">
+                   <img src="img/portfolio/online.png" class="img-responsive img-centered" alt="">
+                </div>
+                <div class="col-lg-4">
+                   <p></p>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-8">
+                <ul>
+                <li align="justify">Created a website in PHP using Adobe Dreamweaver for searching, buying and selling desired properties online with the help of MySQL to keep track of the data.</li>
+                <li align="justify">Designed a responsive interface that would respond to the user’s behavior and environment based on the screen size and platform.</li>
+                <li align="justify">Prepared test cases and designed data flow diagrams to represent the flow of data in the system.</li>
+                <li align="justify">Achieved the prospect of developing the website within the given time frame for a client.</li>
+                <li align="justify"><b>Technologies:</b> PHP, JavaScript, CSS, Adobe Dreamweaver, MySQL</li>
+                </ul>
+                <ul class="list-inline item-details">
+                                <li><u>Academic Project:</u>
+                                    <strong>D. Y. Patil College of Engineering, University of Pune
+                                    </strong>
+                                </li>
+                                <li><u>Date:</u>
+                                    <strong>Jan 2012 - April 2012
+                                    </strong>
+                                </li>
+                                
+                </ul>
+                <button type="button" class="btn btn-default" data-dismiss="modal" onclick="return btntest2_onclick()"><i class="fa fa-times"></i> Close</button>
+                </div>
+                <div class="col-lg-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </body>
+</html>
+        
